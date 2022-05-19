@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&family=Smokum&display=swap');
+
+:root {
+    --cor-fundo: #daf1ff;
+    --cor-titulo: #2750ff;
+    --cor-paragrafo: #5475ff;
+    --cor-link: #29335a;
+    --fonte: Patrick Hand;
+    --fonte-t: fredoka One;
+}
+body {
+    background-color: var(--cor-fundo);
+    width: 150px;
+    max-width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: var(--fonte);
+    color: var(--cor-paragrafo);
+}
+
+h1 {
+    font-family: var(--fonte-t);
+    color: white; 
+    text-shadow: 6px 6px 0px #7f35bb;
+    text-decoration: black wavy underline;
+}
+
+h4 {
+    color: var(--cor-titulo);
+}
+
+img {
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: #D24BEA;
+    border-style: groove; 
+}
+
+ul li a {
+    color: var(--cor-link);
+}
+
+div.eu {
+    text-align: center;
+}
+
+li.logo {
+    text-align: left;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+ul {
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}    
+
+ul li {
+    padding-right: 20px;
+}
